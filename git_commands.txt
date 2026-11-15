@@ -1,0 +1,37 @@
+Git command                                         Purpose
+
+git init                                            Creates a new Git repository in the current project folder.
+
+git branch -M main                                  Sets the current branch name to main.
+
+git add                                             Stages the selected file so it can be included in a commit.
+
+git commit -m "message"                             Creates a permanent snapshot from the staged changes.
+
+git branch feature                                  Creates a new branch called feature.
+
+git switch feature                                  Moves the working directory to the feature branch.
+
+git switch main                                     Returns the working directory to the main branch.
+
+git merge feature                                   Combines the feature branch changes into the current branch.
+
+git log --oneline --graph --decorate --all          Displays a compact graph of commits and branch references.
+
+git status --short                                  Shows a concise view of changed, staged, and untracked files.
+
+git check-ignore                                    Checks whether a path is excluded by an ignore rule.
+
+git revert --no-edit HEAD                           Creates a new commit that reverses the latest commit.
+
+git remote add origin                               Associates the local repository with the GitHub remote named origin.
+
+git remote -v                                       Displays the configured remote repository URLs.
+
+git push -u origin main                             Uploads main and establishes its upstream remote branch.
+
+git push -u origin feature                          Uploads feature and establishes its upstream remote branch.
+
+git add git_commands.txt                            Stages the command documentation file.
+
+git push                                            Sends the committed local changes to the configured upstream branch.
